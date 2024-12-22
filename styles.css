@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fefefe;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+.header {
+    background: linear-gradient(to right, #ff6f91, #ff9671, #ffc75f, #f9f871);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+
+/* Section Styles */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.theme-section, .why-participate, .details, .rules, .cta {
+    margin-bottom: 30px;
+}
+
+.theme-section h2, .why-participate h2, .details h2, .rules h2, .cta h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #ff6f91;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+/* Call to Action Button */
+.button {
+    display: inline-block;
+    background: #ff6f91;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background: #ff9671;
+}
+
+/* Footer Styles */
+.footer {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}
